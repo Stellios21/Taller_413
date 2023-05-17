@@ -6,7 +6,7 @@ jobs:
     working_directory: ~/app
     steps:
       - checkout
-      - run: mvm -B clean test
+      - run: mvn -B clean test
 
 workflows:
   version: 2
